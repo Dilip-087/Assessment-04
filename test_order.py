@@ -1,5 +1,5 @@
 import pytest
-from app.order_system import OrderManagement
+from order_system import OrderManagement
 
 def test_single_product_valid():
     items = [{"product_id": "P01", "quantity": 1, "unit_price": 1200.0, "discount": 0.0, "stock": 5}]

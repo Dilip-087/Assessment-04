@@ -1,5 +1,5 @@
 import pytest
-from app.airline_system import AirlineReservation
+from airline_system import AirlineReservation
 
 def test_successful_booking():
     airline = AirlineReservation()

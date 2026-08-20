@@ -1,5 +1,5 @@
 import pytest
-from app.parking_system import ParkingManagement
+from parking_system import ParkingManagement
 
 def test_park_vehicle_and_slot_allocation():
     lot = ParkingManagement()

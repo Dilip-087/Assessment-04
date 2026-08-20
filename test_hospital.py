@@ -1,4 +1,4 @@
-from app.hospital_system import HospitalManagement
+from hospital_system import HospitalManagement
 
 def test_emergency_patient_billing():
     res = HospitalManagement.calculate_bill("emergency", "regular", 1000, 500, False)

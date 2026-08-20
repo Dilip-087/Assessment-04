@@ -1,5 +1,5 @@
 import pytest
-from app.loan_system import LoanProcessingSystem
+from loan_system import LoanProcessingSystem
 
 def test_successful_loan_approval():
     result = LoanProcessingSystem.process_loan("C01", 30, 50000, 5000, 780, "salaried", 200000, 24)
